@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Smart Health Tracker",
+    "slug": "smart-health-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.smarthealth.tracker"
+    },
+    "android": {
+      "package": "com.smarthealth.tracker"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "scheme": "smart-health-tracker"
+  }
+}
